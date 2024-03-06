@@ -142,10 +142,10 @@
         padding-top: 2vw;
     }
     .mainContainer {
-        width: 100vw;
-        padding: 12vw;
-        padding-top: 4vh;
-        padding-bottom: 4vh;
+        width: 80vw;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
 
         display: flex;
         flex-direction: row;
