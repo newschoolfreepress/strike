@@ -210,7 +210,7 @@
     }
 
 /*responsive*/
-@media only screen and (max-width: 768px) {
+@@media only screen and (max-width: 768px) {
     .body {
         margin: 0%;
         padding: 0%;
@@ -243,14 +243,14 @@
         border-bottom: .5px solid black;
     }
     .mainContainer {
-        flex-direction: row;
+        flex-direction: column;
         padding: 0%;
         align-items: center;
     }
     .left {
         margin-top: 0%;
         padding: 0%;
-        width: 70vw;
+        width: 100vw;
         justify-content: center;
         height: fit-content;
     }
@@ -264,18 +264,15 @@
     .story-img {
         display: flex;
         width: 70vw;
-        height: 40vw;
+        height: fit-content;
         object-fit: cover;
         justify-content: center;
     }
-    #storyimg1 {
-        background: url("https://www.newschoolfreepress.com/wp-content/uploads/2023/10/Untitled-presentation.png");
-    }
-    #storyimg2 {
-        background: url("https://www.newschoolfreepress.com/wp-content/uploads/2024/03/unnamed-2-2048x1152.jpg");
-    }
     img {
-        display: none;
+        display: flex;
+        height: 100%;
+        width: 100%;
+
     }
     .text {
         width: 60vw;
@@ -286,7 +283,7 @@
         height: 5vw;
     }
     .right {
-        width: 30vw;
+        width: 80vw;
         height: fit-content;
         align-items: center;
         justify-content: flex-end;
@@ -296,7 +293,7 @@
         border-bottom: .5px solid black;
     }
     .lateststory {
-        width: 30vw;
+        width: 80vw;
         border-bottom: .5px solid black;
     }
 }
