@@ -252,7 +252,6 @@
         padding: 0%;
         width: 100vw;
         justify-content: center;
-        height: fit-content;
     }
     .story {
         margin-top: 1vw;
@@ -284,7 +283,6 @@
     }
     .right {
         width: 80vw;
-        height: fit-content;
         align-items: center;
         justify-content: flex-end;
         margin-top: 0vw;
