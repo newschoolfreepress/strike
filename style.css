@@ -210,64 +210,93 @@
     }
 
 /*responsive*/
-    @media only screen and (max-width: 768px) {
-        .body {
-            margin: 0%;
-            padding: 0%;
-        }
-        h2 {
-            font-weight: 400;
-        }
-        p {
-            font-weight: 400;
-        }
-        .aboutContainer {
-            padding: 1.5vw;
-        }
-        .live {
-            width: 100vw;
-            border: none;
-            border-bottom: .5px solid black;
-        }
-        .mainContainer {
-            flex-direction: column;
-            padding: 0%;
-            justify-content: center;
-            align-items: center;
-        }
-        .left {
-            flex-direction: row;
-            margin-top: 0%;
-            padding: 0%;
-            width: 100vw;
-            align-items: flex-start;
-            justify-content: center;
-            height: fit-content;
-        }
-        .story {
-            margin-top: 1vw;
-            border: none;
-            width: 45vw;
-        }
-        .story-img {
-            width: 50vw;
-            object-fit: cover;
-            justify-content: center;
-        }
-        .scroll-parent {
-            width: 100vw;
-        }
-        .right {
-            width: 80vw;
-            height: fit-content;
-            justify-content: center;
-            align-items: center;
-        }
-        .latest {
-            border-bottom: .5px solid black;
-        }
-        .lateststory {
-            width: 80vw;
-            border-bottom: .5px solid black;
-        }
+@media only screen and (max-width: 768px) {
+    .body {
+        margin: 0%;
+        padding: 0%;
     }
+    h2 {
+        font-family: "Newsreader", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        text-align: left;
+        line-height: 115%;
+    }
+    p {
+        font-family: "Newsreader", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        text-align: left;
+        line-height: 115%;
+    }
+    .aboutContainer {
+        padding: 2vw;
+    }
+    .live {
+        width: 100vw;
+        height: fit-content;
+        border: none;
+        border-bottom: .5px solid black;
+    }
+    .mainContainer {
+        flex-direction: row;
+        padding: 0%;
+        align-items: center;
+    }
+    .left {
+        margin-top: 0%;
+        padding: 0%;
+        width: 70vw;
+        justify-content: center;
+        height: fit-content;
+    }
+    .story {
+        margin-top: 1vw;
+        border: none;
+        width: 70vw;
+        height: fit-content;
+        align-items: center;
+    }
+    .story-img {
+        display: flex;
+        width: 70vw;
+        height: 40vw;
+        object-fit: cover;
+        justify-content: center;
+    }
+    #storyimg1 {
+        background: url("https://www.newschoolfreepress.com/wp-content/uploads/2023/10/Untitled-presentation.png");
+    }
+    #storyimg2 {
+        background: url("https://www.newschoolfreepress.com/wp-content/uploads/2024/03/unnamed-2-2048x1152.jpg");
+    }
+    img {
+        display: none;
+    }
+    .text {
+        width: 60vw;
+        height: fit-content;
+    }
+    .scroll-parent {
+        width: 100vw;
+        height: 5vw;
+    }
+    .right {
+        width: 30vw;
+        height: fit-content;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 0vw;
+    }
+    .latest {
+        border-bottom: .5px solid black;
+    }
+    .lateststory {
+        width: 30vw;
+        border-bottom: .5px solid black;
+    }
+}
