@@ -156,7 +156,7 @@
     .left {
         display: flex;
         width: 45vw;
-        height: 100vh;
+        height: auto;
         flex-direction: column;
         align-items: center;
     }
@@ -193,7 +193,7 @@
     .right {
         display: flex;
         width: 30vw;
-        height: 100vh;
+        height: auto;
         flex-direction: column;
     }
     .latest {
